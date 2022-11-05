@@ -1,0 +1,16 @@
+body{
+    background: #888888;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 88px;
+    color: #d800ff;
+    text-shadow: -4px 5px 4px #5eb0c9;
+    background: linear-gradient(45deg, #6cd329, #0717be94);
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 7px 7px #1e2d66;
+}

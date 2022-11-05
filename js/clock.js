@@ -30,9 +30,9 @@ var start=setInterval(clock,1000);
 		}
 		function setTimeVal(hr,min,sec) {
 			// body...
-			sec_str=(sec>10)?sec:"0"+sec;
-			min_str=(min>10)?min:"0"+min;
-			hr_str=(hr>10)?hr:"0"+hr;
+			sec_str=(sec>=10)?sec:"0"+sec;
+			min_str=(min>=10)?min:"0"+min;
+			hr_str=(hr>=10)?hr:"0"+hr;
 			hr_box.innerText=hr_str;
 			min_box.innerText=min_str;
 			sec_box.innerText=sec_str;
